@@ -1,0 +1,90 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Colonne della griglia flessibile */
+            gap: 20px; /* Spazio tra le immagini */
+        }
+
+        .image-grid img {
+            max-width: 100%; /* Assicura che le immagini non superino la larghezza del loro contenitore */
+            height: auto; /* Mantieni l'aspetto proporzionale */
+            width:auto;
+        }
+    </style>
+</head>
+<body style="background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);;">
+<form>
+<input type="button" value="Home" onclick="Iniziale()">
+<input type="button" value="Back" onclick="indietro()">
+</form>
+<div style="text-align:center;">
+<h1> esperienza PCTO: <br> Ligorio Kelvin </h1>
+<br><br>
+
+<h2>UFFICIO</h2>
+<br><br><br>
+
+<div class="image-grid">
+  <img src="img/Asst1.png" alt="Ufficio">
+  <img src="img/Asst6.png" alt="Ufficio">
+  <img src="img/Asst5.png" alt="Immagine 3">
+    <!-- Aggiungi più immagini secondo necessità -->
+</div> <br>
+
+<strong>Nel cuore di un ospedale moderno</strong>
+
+<p style="font-style:oblique;">l
+
+	’ufficio amministrativo coniuga funzionalità e comfort,Il luminoso ambiente accoglie una scrivania marroncina in legno massiccio accompagnata da una sedia con rotelle e sistema di aria condizionata.
+	<br> 
+	Una finestra a due ante offre una vista sui giardini esterni, regolabile con eleganti tende per la luce e la privacy.
+	<br>
+	 Opere d’arte e piante verdi decorano lo spazio, mentre una lounge adiacente accoglie con poltrone in pelle e un angolo caffè.
+	  <br>
+	  Un ambiente pensato per un lavoro efficiente e accogliente, nel rispetto del benessere dei suoi occupanti.
+</p>
+<br>
+
+<h3> SEDE (Lodi ) <br> Via Fissiraga 15 </h3>
+<img src="img/Asst3.png" style="width: 230px; height: 300px;" >
+
+<p style="font-style:oblique;"> 
+	Ospedale Maggiore di Lodi ha origini nel XIII secolo, ma l’edificio attuale prende forma dal 1457 sotto il vescovo Carlo Pallavicino, che unificò gli ospizi cittadini in un unico complesso
+	.<br> 
+	La costruzione iniziò nel 1459 con l’architetto Antonio da Lumezzate. I primi lavori comprendevano la chiesa, locali amministrativi e la spezieria, completati intorno al 1504. Nel XVI secolo, furono aggiunti affreschi decorativi come quelli di Giulio Ferrari.
+	 <br>
+	 Un rifacimento globale nell’ultimo Settecento, progettato da Isidoro Plana e completato nel 1795, aggiunse la facciata sulla piazza. Nel XIX secolo, si progettarono ulteriori restauri e regolamentazioni, consolidando la struttura che vediamo oggi.
+
+</p>
+<br>
+
+
+<script type="text/javascript">
+	function indietro() {
+	 window.location="Sito_PCTO2.html"
+ 	}
+
+ 	function Iniziale() {
+	 window.location="Sito_PCTO.html"
+ 	}
+function avanti2() {
+
+
+	window.location="Sito_PCTO4.html"
+}
+
+
+ </script>
+
+ <form>
+ 	<input type="button" value="Diario di Bordo" onclick="avanti2()">
+ </form>
+</body>
+</html>

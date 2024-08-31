@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    body {
+      background: rgb(238,174,202);
+      background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+      font-family: Verdana, sans-serif;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    .container {
+      display: flex;
+      align-items: center;
+    }
+    
+    .container img {
+      width: 300px; /* Dimensione quadrata */
+      height: 300px; /* Dimensione quadrata */
+      margin-right: 20px;
+    }
+    
+    .container p {
+      margin: 0;
+      max-width: calc(100% - 340px); /* Calcola lo spazio rimanente per il testo */
+    }
+  </style>
+</head>
+
+<body>
+  <br><br><br><br>
+  <form>
+    <input type="button" value="Back" onclick="indietro()">
+    <input type="button" value="Home" onclick="Iniziale()">
+  </form>
+
+  <h1 style="text-align:center;">DIARIO DI BORDO 2024<br>Ligorio Kelvin<br></h1>
+  <br><br><br>
+
+  <h2 style="color: red; text-align: center">MOMENTO PIÙ DIFFICILE</h2>
+  
+  <p style="font-style: italic; text-align: center; font-size: 24px;">
+    Durante il mio periodo di alternanza scuola-lavoro presso l’ASST di Lodi,<br>
+    ho vissuto un momento particolarmente difficile che mi ha messo alla prova sia a livello professionale che personale.<br>
+    Era una giornata intensa, faceva caldo, e mi era stato affidato un compito molto importante: <br>
+    dovevo verificare che tutti gli studenti avessero mandato il foglio ore completato, sentivo il peso della responsabilità.<br>
+    Avevo paura di commettere errori e di non essere all’altezza della situazione.<br>
+    Tuttavia, con il supporto dei colleghi sono riuscito a gestire il momento, imparando l’importanza della calma e della collaborazione anche quando pensi di non farcela.<br>
+    Quell’esperienza mi ha insegnato quanto sia fondamentale rimanere lucidi e fidarsi di se stessi, soprattutto nelle situazioni dove pensi di non farcela.
+  </p>
+
+  <script type="text/javascript">
+    function indietro() {
+      window.location = "Sito_PCTO3.html";
+    }
+
+    function Iniziale() {
+      window.location = "Sito_PCTO.html";
+    }
+
+    function avanti2() {
+      window.location = "Sito_PCTO5.html";
+    }
+  </script>
+  <br>
+  <div style="text-align:center;"><br>
+  <h1 style="color:red;">Software Utilizzato:</h1>
+  <h2>SOCRATIVE</h2>
+</div>
+  <div class="container">
+    <img src="img/socrative.png" alt="Socrative">
+    <p>
+      Socrative è un’app educativa che facilita l’interazione tra insegnanti e studenti in classe. Consente di creare quiz, sondaggi e domande a risposta aperta in tempo reale, rendendo l’apprendimento più dinamico e interattivo. Gli studenti possono rispondere tramite dispositivi mobili o computer, mentre gli insegnanti ricevono i risultati immediatamente, permettendo di adattare le lezioni secondo le necessità. Include anche il gioco “Space Race”, che rende l’apprendimento divertente e competitivo, stimolando la partecipazione attiva.
+    </p>
+  </div>
+
+  <div style="text-align: center; margin-top: 50px;">
+    <h1 style="color: blue;">LAVORO CON COLLEGHI</h1>
+    <p>
+      Oggi è stata una giornata abbastanza intensa, ma anche molto interessante. Fin dal mattino, sono stato coinvolto in un progetto insieme ai miei colleghi, e devo dire che mi è piaciuto lavorare in gruppo. Dovevamo sistemare un archivio digitale, quindi ci siamo divisi i compiti per essere più veloci e organizzati. Mentre alcuni si occupavano di scannerizzare i documenti, io e altri ci siamo messi a catalogare e inserire i dati nel sistema.
+    </p>
+    <p>
+      È stato bello vedere come ognuno di noi avesse il proprio modo di fare le cose, e ho imparato un sacco di trucchetti dai colleghi più esperti. Ad esempio, mi hanno mostrato come gestire tanti dati senza andare in confusione, cosa che all'inizio sembrava impossibile.
+    </p>
+    <p>
+      Dopo la pausa pranzo, siamo tornati al lavoro. Abbiamo avuto qualche problema tecnico con il software, ma grazie all'aiuto di tutti, siamo riusciti a risolverlo senza troppi intoppi. Alla fine, siamo riusciti a finire tutto in tempo, e c'è stata una bella sensazione di aver fatto qualcosa di utile.
+    </p>
+    <p>
+      È stata una giornata di lavoro intenso, ma anche di collaborazione e apprendimento. Lavorare insieme è stato divertente e mi ha fatto capire quanto sia importante avere una buona squadra intorno a te. Sicuramente un’esperienza positiva!
+    </p>
+  </div>
+  <div style="text-align:center;">
+  <img src="img/colleghi.png">
+  </div>
+  <form style="text-align: center;"><br><br><br>
+    <input type="button" value="Calendario" onclick="avanti2()">
+  </form>
+</body>
+
+</html>
